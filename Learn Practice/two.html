@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style = "background-color: #212121; color: #fff">
+    
+    <script>
+        const div = document.createElement('h1');
+        // div.className = "main";
+        div.id = Math.round(Math.random()*10);
+        div.setAttribute('class', ' main title generated');
+        div.innerText = "chai or papa ji ke goth";
+        console.log(div);
+        const addTest = document.createTextNode("chai or code ji");
+        div.appendChild(addTest);
+        document.body.appendChild(div);f
+    </script>
+</body>
+</html>
